@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/ll">
+
+    </LinearLayout>
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tl">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Audio Servo Controller"
+            android:ems="10"
+            android:id="@+id/editTextTextPersonName" android:clickable="false" android:editable="false"
+            android:enabled="false" android:focusable="false"/>
+        <Switch
+            android:text="Audio Output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/switch1"/>
+        <TextView
+            android:text="Servo Positions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"/>
+    </TableLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
